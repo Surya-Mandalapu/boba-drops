@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+    animation: spin .5s linear infinite;
+}
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
